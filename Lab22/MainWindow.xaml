@@ -1,0 +1,59 @@
+﻿<Window x:Class="Lab22.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab22"
+        mc:Ignorable="d"
+        Title="Лабораторна 22 Кривонос" Height="500" Width="850" Icon="/54.png">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem x:Name="fileMenu" Header="Файл" Foreground="#FFAF1234">
+                <MenuItem x:Name="createMenuItem" Header="Створити" Click="NewDocument_Click"/>
+                <MenuItem x:Name="openMenuItem" Header="Відкрити" Click="Open_Click"/>
+                <MenuItem x:Name="saveMenuItem" Header="Зберегти" Click="Save_Click"/>
+                <Separator />
+                <MenuItem x:Name="exitMenuItem" Header="Вийти" Click="Close_Click"/>
+            </MenuItem>
+            <MenuItem x:Name="editMenu" Header="Редагувати" Foreground="#FFAF1234">
+                <MenuItem x:Name="cutMenuItem" Header="Вирізати" Click="CutMenuItem_Click" />
+                <MenuItem x:Name="copyMenuItem" Header="Копіювати" Click="CopyMenuItem_Click" />
+                <MenuItem x:Name="pasteMenuItem" Header="Вставити" Click="PasteMenuItem_Click" />
+                <MenuItem x:Name="selectAllMenuItem" Header="Виділити все" Click="SelectAllMenuItem_Click" />
+                <Separator />
+                <MenuItem x:Name="pasteimageMenuItem" Header="Вставити зображення" Click="PasteImage_Click"/>
+            </MenuItem>
+            <MenuItem x:Name="languageMenu" Header="Мова" Foreground="#FFAF1234">
+                <MenuItem x:Name="englishMenuItem" Header="English" Click="EnglishMenuItem_Click"/>
+                <MenuItem x:Name="ukrainianMenuItem" Header="Українська" Click="UkrainianMenuItem_Click" />
+            </MenuItem>
+        </Menu>
+        <ToolBar DockPanel.Dock="Top" Background="#FFAF1234">
+            <Button Click="PasteImageButton_Click">
+                <Image Height="20" Width="20" Source="/Зображення.png"></Image>
+            </Button>
+            <ToggleButton x:Name="boldButton" Click="BoldButton_Click">
+                <Image Height="20" Width="20" Source="/Жирний текст.png"></Image>
+            </ToggleButton>
+            <ToggleButton x:Name="italicButton" Click="ItalicButton_Click">
+                <Image Height="20" Width="20" Source="/Курсив.png"></Image>
+            </ToggleButton>
+            <ToggleButton x:Name="underlineButton" Click="UnderlineButton_Click">
+                <Image Height="20" Width="20" Source="/Підкреслити.png"></Image>
+            </ToggleButton>
+            <ComboBox Name="cmbFontFamily" Width="120" Margin="5 0 0 0"/>
+            <ComboBox Name="cmbFontSize" Width="45" Margin="10 0 0 0"/>
+            <Button  x:Name="Left" Click="LeftIcon_Click">
+                <Image Height="20" Width="20" Source="/Ліворуч.png"></Image>
+            </Button>
+            <Button  x:Name="Center" Click="CenterIcon_Click">
+                <Image Height="20" Width="20" Source="/По центру.png"></Image>
+            </Button>
+            <Button x:Name="Right" Click="RightIcon_Click">
+                <Image Height="20" Width="20" Source="/Праворуч.png"></Image>
+            </Button>
+        </ToolBar>
+        <TabControl Name="TabControl" Background="#FFB4B4B4">
+        </TabControl>
+    </DockPanel>
+</Window>

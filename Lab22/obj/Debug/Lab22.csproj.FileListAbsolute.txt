@@ -1,0 +1,17 @@
+D:\ООП\Lab22\Lab22\bin\Debug\Lab22.exe.config
+D:\ООП\Lab22\Lab22\bin\Debug\Lab22.exe
+D:\ООП\Lab22\Lab22\bin\Debug\Lab22.pdb
+D:\ООП\Lab22\Lab22\obj\Debug\Lab22.csproj.AssemblyReference.cache
+D:\ООП\Lab22\Lab22\obj\Debug\Document.g.cs
+D:\ООП\Lab22\Lab22\obj\Debug\MainWindow.g.cs
+D:\ООП\Lab22\Lab22\obj\Debug\App.g.cs
+D:\ООП\Lab22\Lab22\obj\Debug\Lab22_MarkupCompile.cache
+D:\ООП\Lab22\Lab22\obj\Debug\Lab22_MarkupCompile.lref
+D:\ООП\Lab22\Lab22\obj\Debug\Document.baml
+D:\ООП\Lab22\Lab22\obj\Debug\MainWindow.baml
+D:\ООП\Lab22\Lab22\obj\Debug\Lab22.g.resources
+D:\ООП\Lab22\Lab22\obj\Debug\Lab22.Properties.Resources.resources
+D:\ООП\Lab22\Lab22\obj\Debug\Lab22.csproj.GenerateResource.cache
+D:\ООП\Lab22\Lab22\obj\Debug\Lab22.csproj.CoreCompileInputs.cache
+D:\ООП\Lab22\Lab22\obj\Debug\Lab22.exe
+D:\ООП\Lab22\Lab22\obj\Debug\Lab22.pdb
